@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome in Examination System  </h1>
+    <img class ="logo1"src="iti-logo.png">
+    <img class="logo2" src="flag.png">
+  </header>
+   <!-- Choose student Name -->
+   <div class="nameselection">
+            <div class="bar">
+              <div class="bartitle">
+                <h3>IT-Exame</h3>
+                <span>Student Name : </span>
+                <span class="stdName" id="Name"></span>
+              </div>
+            </div>
+       
+            <label class="label"> Select Your Name  ? </label>
+            <br><br>
+            <select name="Names" id="StName">
+
+                 <option selected value="Mohammed Tokhi">Mohammed Tokhi</option>
+                 <option value="Ahmed Ali">Ahmed Ali</option>
+                <option value="Ali Tarek">Ali Tarek</option>
+              
+              </select>
+        
+        <button class="start">Start Exame</button>
+
+      </div>
+      <div class="question">
+        <div class="bar">
+          <div class="bartitle">
+            <h3>IT-Exame</h3>
+            <span>Student Name : </span>
+            <span class="stdName" id="name2"></span>
+          </div>
+          <div class="time">
+             <h2></h2>
+          </div>
+          <div class="questionTile"></div>
+          <div class="questionList"></div>
+        </div>
+        <div class="navgator">
+           <button id ="brev"> &laquo;Brevios Question </button>
+          <button id="next">Next Question  &raquo; </button>
+          <button id="submit">Submit Question </button>
+
+          
+        </div>
+      </div>
+      <div id = "result">
+        <div class="bartitle">
+          <h3>IT-Exame</h3>
+          <span>Student Name :</span>
+          <span class="stdName" id="name3"></span>
+        </div>
+        <div class="time">
+        </div>
+        <p id="score"></p>
+      </div>
+         
+
+
+
+
+
+      <script src="questions.js"></script>
+      <script src="script1.js"></script>
+
+      
+</body>
+</html>
